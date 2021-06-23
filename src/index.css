@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.movie-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.input {
+  margin: auto;
+  display: block;
+}
+
+.movie {
+  width: 300px;
+  margin: 1rem;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px black;
+  background-color: cyan;
+}
+
+.movie:hover {
+  transform: scale(1.04);
+}
+
+.movie-info {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: whitesmoke;
+}
+.movie img {
+  max-width: 100%;
+}
+
